@@ -6,7 +6,6 @@ body {
 }
 
 hr {
-  margin-top: 4rem;
   margin-bottom: 6rem;
   border-width: 0;
   border-top: 2px solid #000;
@@ -16,11 +15,9 @@ hr {
 }
 
 hr.f {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: 3rem auto;
   border-width: 0;
   border-top: 1px solid #000;
-  width:100%;
-  text-align:left;
-  margin-left:0;
+  width: 960px;
+  text-align: left;
 }
