@@ -12,7 +12,7 @@ export default () => (
       <title>my app</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
-      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css" />
       <link rel="stylesheet" href="/static/style.css" />
     </Head>
   </div>
