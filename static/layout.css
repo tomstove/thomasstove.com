@@ -101,23 +101,26 @@ section, footer {
   grid-row-gap: 5px;
 }
 
-#contact .heading {
+#contact .leftContent {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 
-#contact .subhead {
+#contact .subheadLeft {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   padding-right: 10rem;
 }
 
-#contact .leftContent {
+#contact .centerContent {
   grid-column: 2 / 3;
-  grid-row: 1 / 4;
-  padding-top: 9rem;
-  padding-right: 4rem;
-  height: 100%
+  grid-row: 1 / 2;
+}
+
+#contact .subheadCenter {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  padding-right: 10rem;
 }
 
 #contact .rightContent {
@@ -168,5 +171,3 @@ footer .footerLogo {
   background: url(/static/logo.svg) no-repeat center center;
   background-size: 40px;
 }
-
-

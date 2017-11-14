@@ -87,7 +87,7 @@ var _class = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 20
         }
-      }, 'Nik.org is the eponymous online home of Nik Papic\u2014designer, developer, marketer, perpetual entrepreneur, and aspiring polymath.')))), _react2.default.createElement('section', { id: 'biography', __source: {
+      }, 'Hi, I\'m a furniture/cabinet maker/designer residing in Hobart, Tasmania. I specialise in designing and constructing pieces to suit your space and needs.')))), _react2.default.createElement('section', { id: 'biography', __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         }
@@ -122,12 +122,12 @@ var _class = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 33
         }
-      }, 'I have spent my entire adult life\u2014and most of my (beleaguered) childhood\u2014engrossed in internet business and the functions that drive it. As a somewhat atypical child\u2014emigrating war-torn Yugoslavia for the United States at the age of ten\u2014I found a virtual refuge in the online world, and quickly became enamored with design, development, and marketing on the (then new) medium.'), _react2.default.createElement('p', {
+      }, 'My adventures in furniture design began in 2009 when my life took on a new direction. I found working with my hands in a creative fashion therapeutic and akin to simpler times. I was captivated with Italian minimalism and the sleek, clean lines representative of the early 21st century. Inspired by the works of designers Werner Aisslinger and Roland Knoll, and of furniture studios Cappellini and Vitra, I set to work creating my own designs.'), _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
         }
-      }, 'By high school, I founded Gamers.net, establishing the site as a preeminent gaming network that attracted millions of monthly visitors. The company was eventually acquired as my interest in gaming waned (along with inflated revenues of the dot-com boom), but a passion for online business & design remained. Twenty years, countless projects, and numerous ups-and-downs later, Im still as obsessed as ever.')), _react2.default.createElement('div', { className: 'rightContent', __source: {
+      }, 'In 2012, I took the next step in my education and began working with solid timber. I joined Designed Objects Tasmania, a cooperative studio and workshop to advance my craft. I learnt how to use machinery and discovered the beauty of working with timber.')), _react2.default.createElement('div', { className: 'rightContent', __source: {
           fileName: _jsxFileName,
           lineNumber: 36
         }
@@ -136,21 +136,17 @@ var _class = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 37
         }
-      }, 'Most recently, I spent four years at Squarespace, a SaaS website publishing platform based in NYC. As an early employee (the headcount grew 25x during my tenure), I instituted the companys marketing architecture and scaled the growth initiatives, culminating in paying subscriber growth of >2000% and a valuation of over a billion dollars.'), _react2.default.createElement('p', {
+      }, 'Inspired by the robust designs of Mark Tuckey, I designed and created cabinets using thick timber slabs whilst integrating elements from Scandinavian modern. The minimalist nature of the mid-century modern movement provided the next step in my journey.'), _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38
         }
-      }, 'Prior to Squarespace, I was an early employee at a Seattle-based education startup, where I built the flagship consumer website and grew it into a top-500 property (Alexa, 2007\u20132010). This helped the company become one of the most profitable (net margin) and fastest-growing private companies in the US, leading to a $160M acquisition.'), _react2.default.createElement('p', {
+      }, 'Upon my completion of a Bachelor of Science from UTAS (that\'s a story for another time) I decided to have a go at making furniture on a full-time basis. So it was that I discovered Shaker style furniture. I was drawn in by the stark minimalism which encapsulates the style where truly less is more. I honed my hand tool skills and learnt to construct furniture using traditional joinery techniques. I learnt the subtleties of wood movement (and the not so subtle effects of getting it wrong) and created small and large pieces with traditional timber drawers and doors. Inspired by the work of Sebastian Cox, I introduced woven timber elements into my designs.'), _react2.default.createElement('p', {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
         }
-      }, 'I currently reside in Manhattan and continue to work in tech, both professionally and as a hobby. I have a keen appreciation of good design, which plays a major role in every facet of my life, bordering on obsessive. I also teach Internet Marketing (DM435) at ', _react2.default.createElement('a', { href: 'http://www.fitnyc.edu', target: '_blank', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        }
-      }, 'FIT'), '; it allows me to impart my lifes positive influences onto a new generation, which is incredibly rewarding.')))), _react2.default.createElement('section', { id: 'instafeed', __source: {
+      }, 'In early 2017, I decided it was time to take the next step in my indefinite eduction and accepted a cabinet making apprenticeship through a prominent joinery firm in Hobart. Working in a professional workshop and using new materials and techniques has changed the way I think about, design and construct furniture and cabinets for the better.')))), _react2.default.createElement('section', { id: 'instafeed', __source: {
           fileName: _jsxFileName,
           lineNumber: 44
         }
@@ -198,7 +194,7 @@ var _class = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 58
         }
-      }, _react2.default.createElement('div', { className: 'heading', __source: {
+      }, _react2.default.createElement('div', { className: 'leftContent', __source: {
           fileName: _jsxFileName,
           lineNumber: 59
         }
@@ -212,50 +208,94 @@ var _class = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 61
         }
-      }, 'Get In Touch')), _react2.default.createElement('div', { className: 'subhead', __source: {
+      }, 'Services')), _react2.default.createElement('div', { className: 'subheadLeft subhead', __source: {
           fileName: _jsxFileName,
           lineNumber: 63
         }
-      }, 'A lifes work of embracing both the creative and the quantitative, developing thriving online businesses and enviable brands.'), _react2.default.createElement('div', { className: 'leftContent item', __source: {
+      }, _react2.default.createElement('ul', {
+        __source: {
           fileName: _jsxFileName,
           lineNumber: 64
         }
-      }), _react2.default.createElement('div', { className: 'rightContent', __source: {
+      }, _react2.default.createElement('li', {
+        __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 65
+        }
+      }, 'Furniture and cabinet design'), _react2.default.createElement('li', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        }
+      }, 'Furniture and cabinet construction'))), _react2.default.createElement('div', { className: 'centerContent', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        }
+      }, _react2.default.createElement('hr', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70
+        }
+      }), _react2.default.createElement('h2', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71
+        }
+      }, 'Get In Touch')), _react2.default.createElement('div', { className: 'subheadCenter subhead', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        }
+      }, _react2.default.createElement('p', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        }
+      }, 'tom@thomasstove.com'), _react2.default.createElement('p', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        }
+      }, '0457 001 345'), _react2.default.createElement('p', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        }
+      }, 'Hobart, Tasmania')), _react2.default.createElement('div', { className: 'rightContent', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
         }
       }, _react2.default.createElement('img', { className: 'circle', src: '/static/profile_sml.png', __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 79
         }
       })))), _react2.default.createElement('footer', {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 84
         }
       }, _react2.default.createElement('hr', { className: 'f', __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 85
         }
       }), _react2.default.createElement('div', { className: 'gridContainer center', __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 86
         }
       }, _react2.default.createElement('div', { className: 'facebookLogo', __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 87
         }
       }), _react2.default.createElement('div', { className: 'instagramLogo', __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 88
         }
       }), _react2.default.createElement('div', { className: 'details item', __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 89
         }
       }), _react2.default.createElement('div', { className: 'footerLogo item', __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 92
         }
       }))));
     }
@@ -291,4 +331,4 @@ var _class = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = _class;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlBhZ2UiLCJSZWFjdCIsImRhdGEiLCJuYW1lIiwiQ29tcG9uZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTyxBQUFVOzs7O0FBQ2pCLEFBQU87Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzZCQVFJLEFBQ1A7NkJBQ0UsQUFBQzs7b0JBQUQ7c0JBQUEsQUFFQTtBQUZBO0FBQUEsT0FBQSxrQkFFQSxjQUFBLGFBQVMsSUFBVCxBQUFZO29CQUFaO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjtnREFDTyxXQUFMLEFBQWUsV0FBVSxLQUF6QixBQUE2QjtvQkFBN0I7c0JBRkosQUFDRSxBQUNFLEFBRUY7QUFGRTsyQkFFRixjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FSTixBQUVBLEFBQ0UsQUFJRSxBQUNFLEFBS04sNEpBQUEsY0FBQSxhQUFTLElBQVQsQUFBWTtvQkFBWjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7OztvQkFDRTtzQkFERixBQUNFLEFBQ0E7QUFEQTtBQUFBLDBCQUNBLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQUhKLEFBQ0UsQUFFRSxBQUVGLHNDQUFBLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUE7QUFBQTtTQUxGLEFBS0UsQUFDQSxpSkFBQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FERixBQUNFLEFBQ0EsaWFBQUEsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBUkosQUFNRSxBQUVFLEFBRUYsMmFBQUEsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUNBLHdXQUFBLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQUZGLEFBRUUsQUFDQSx5V0FBQSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FBdVEsd1JBQUEsY0FBQSxPQUFHLE1BQUgsQUFBUSx5QkFBd0IsUUFBaEMsQUFBdUM7b0JBQXZDO3NCQUFBO0FBQUE7U0FBdlEsQUFBdVEsUUEzQjdRLEFBYUEsQUFDRSxBQVVFLEFBR0UsQUFLTixtSUFBQSxjQUFBLGFBQVMsSUFBVCxBQUFZO29CQUFaO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjtnREFDTyxXQUFMLEFBQWU7b0JBQWY7c0JBREYsQUFDRSxBQUNBO0FBREE7aURBQ0ssV0FBTCxBQUFlO29CQUFmO3NCQUZGLEFBRUUsQUFDQTtBQURBO2lEQUNLLFdBQUwsQUFBZTtvQkFBZjtzQkFIRixBQUdFLEFBQ0E7QUFEQTtpREFDSyxXQUFMLEFBQWU7b0JBQWY7c0JBSkYsQUFJRSxBQUNBO0FBREE7aURBQ0ssV0FBTCxBQUFlO29CQUFmO3NCQUxGLEFBS0UsQUFDQTtBQURBO2lEQUNLLFdBQUwsQUFBZTtvQkFBZjtzQkFORixBQU1FLEFBQ0E7QUFEQTtpREFDSyxXQUFMLEFBQWU7b0JBQWY7c0JBUEYsQUFPRSxBQUNBO0FBREE7aURBQ0ssV0FBTCxBQUFlO29CQUFmO3NCQXpDSixBQWdDQSxBQUNFLEFBUUUsQUFJSjtBQUpJOzRCQUlKLGNBQUEsYUFBUyxJQUFULEFBQVk7b0JBQVo7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGOzs7b0JBQ0U7c0JBREYsQUFDRSxBQUNBO0FBREE7QUFBQSwwQkFDQSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FISixBQUNFLEFBRUUsQUFFRixrQ0FBQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBO0FBQUE7U0FMRixBQUtFLEFBQ0Esd0tBQUssV0FBTCxBQUFlO29CQUFmO3NCQU5GLEFBTUUsQUFHQTtBQUhBOzBCQUdBLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO2dEQUNPLFdBQUwsQUFBZSxVQUFTLEtBQXhCLEFBQTRCO29CQUE1QjtzQkF4RE4sQUE2Q0EsQUFDRSxBQVNFLEFBQ0UsQUFLTjtBQUxNOzZCQUtOLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLCtDQUNNLFdBQUosQUFBYztvQkFBZDtzQkFERixBQUNFLEFBQ0E7QUFEQTswQkFDQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjtnREFDTyxXQUFMLEFBQWU7b0JBQWY7c0JBREYsQUFDRSxBQUNBO0FBREE7aURBQ0ssV0FBTCxBQUFlO29CQUFmO3NCQUZGLEFBRUUsQUFDQTtBQURBO2lEQUNLLFdBQUwsQUFBZTtvQkFBZjtzQkFIRixBQUdFLEFBR0E7QUFIQTtpREFHSyxXQUFMLEFBQWU7b0JBQWY7c0JBdEVOLEFBQ0UsQUE2REEsQUFFRSxBQU1FLEFBTVA7QUFOTzs7Ozs7Ozs7Ozs7bUJBM0VGO0EsdUJBQU8sRUFBRSxNQUFGLEFBQVEsQTtpREFDWCxFQUFFLE1BQUYsQUFBUSxBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7O0VBSFMsZ0JBQU0sQSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvVXNlcnMvdG9tc3RvdmUvRG9jdW1lbnRzL0NvZGluZy9uZXh0anMvdGhvbWFzc3RvdmUuY29tIn0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlBhZ2UiLCJSZWFjdCIsImRhdGEiLCJuYW1lIiwiQ29tcG9uZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTyxBQUFVOzs7O0FBQ2pCLEFBQU87Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzZCQVFJLEFBQ1A7NkJBQ0UsQUFBQzs7b0JBQUQ7c0JBQUEsQUFFQTtBQUZBO0FBQUEsT0FBQSxrQkFFQSxjQUFBLGFBQVMsSUFBVCxBQUFZO29CQUFaO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjtnREFDTyxXQUFMLEFBQWUsV0FBVSxLQUF6QixBQUE2QjtvQkFBN0I7c0JBRkosQUFDRSxBQUNFLEFBRUY7QUFGRTsyQkFFRixjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FSTixBQUVBLEFBQ0UsQUFJRSxBQUNFLEFBS04saUxBQUEsY0FBQSxhQUFTLElBQVQsQUFBWTtvQkFBWjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7OztvQkFDRTtzQkFERixBQUNFLEFBQ0E7QUFEQTtBQUFBLDBCQUNBLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQUhKLEFBQ0UsQUFFRSxBQUVGLHNDQUFBLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUE7QUFBQTtTQUxGLEFBS0UsQUFDQSxpSkFBQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FERixBQUNFLEFBQ0EsZ2RBQUEsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBUkosQUFNRSxBQUVFLEFBRUYsbVJBQUEsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUNBLGlSQUFBLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQUZGLEFBRUUsQUFDQSwwcUJBQUEsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBM0JOLEFBYUEsQUFDRSxBQVVFLEFBR0UsQUFLTiw4V0FBQSxjQUFBLGFBQVMsSUFBVCxBQUFZO29CQUFaO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjtnREFDTyxXQUFMLEFBQWU7b0JBQWY7c0JBREYsQUFDRSxBQUNBO0FBREE7aURBQ0ssV0FBTCxBQUFlO29CQUFmO3NCQUZGLEFBRUUsQUFDQTtBQURBO2lEQUNLLFdBQUwsQUFBZTtvQkFBZjtzQkFIRixBQUdFLEFBQ0E7QUFEQTtpREFDSyxXQUFMLEFBQWU7b0JBQWY7c0JBSkYsQUFJRSxBQUNBO0FBREE7aURBQ0ssV0FBTCxBQUFlO29CQUFmO3NCQUxGLEFBS0UsQUFDQTtBQURBO2lEQUNLLFdBQUwsQUFBZTtvQkFBZjtzQkFORixBQU1FLEFBQ0E7QUFEQTtpREFDSyxXQUFMLEFBQWU7b0JBQWY7c0JBUEYsQUFPRSxBQUNBO0FBREE7aURBQ0ssV0FBTCxBQUFlO29CQUFmO3NCQXpDSixBQWdDQSxBQUNFLEFBUUUsQUFJSjtBQUpJOzRCQUlKLGNBQUEsYUFBUyxJQUFULEFBQVk7b0JBQVo7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDRTtBQURGOzs7b0JBQ0U7c0JBREYsQUFDRSxBQUNBO0FBREE7QUFBQSwwQkFDQSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FISixBQUNFLEFBRUUsQUFFRiw4QkFBQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjt5QkFDRSxjQUFBOztvQkFBQTtzQkFBQSxBQUNFO0FBREY7QUFBQSx5QkFDRSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FERixBQUNFLEFBQ0EsaURBQUEsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBUk4sQUFLRSxBQUNFLEFBRUUsQUFHSix5REFBQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjs7O29CQUNFO3NCQURGLEFBQ0UsQUFDQTtBQURBO0FBQUEsMEJBQ0EsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBYkosQUFXRSxBQUVFLEFBRUYsa0NBQUEsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBREYsQUFDRSxBQUNBLHdDQUFBLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQUZGLEFBRUUsQUFDQSxpQ0FBQSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FsQkosQUFlRSxBQUdFLEFBRUYsc0NBQUEsY0FBQSxTQUFLLFdBQUwsQUFBZTtvQkFBZjtzQkFBQSxBQUNFO0FBREY7Z0RBQ08sV0FBTCxBQUFlLFVBQVMsS0FBeEIsQUFBNEI7b0JBQTVCO3NCQW5FTixBQTZDQSxBQUNFLEFBb0JFLEFBQ0UsQUFLTjtBQUxNOzZCQUtOLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLCtDQUNNLFdBQUosQUFBYztvQkFBZDtzQkFERixBQUNFLEFBQ0E7QUFEQTswQkFDQSxjQUFBLFNBQUssV0FBTCxBQUFlO29CQUFmO3NCQUFBLEFBQ0U7QUFERjtnREFDTyxXQUFMLEFBQWU7b0JBQWY7c0JBREYsQUFDRSxBQUNBO0FBREE7aURBQ0ssV0FBTCxBQUFlO29CQUFmO3NCQUZGLEFBRUUsQUFDQTtBQURBO2lEQUNLLFdBQUwsQUFBZTtvQkFBZjtzQkFIRixBQUdFLEFBR0E7QUFIQTtpREFHSyxXQUFMLEFBQWU7b0JBQWY7c0JBakZOLEFBQ0UsQUF3RUEsQUFFRSxBQU1FLEFBTVA7QUFOTzs7Ozs7Ozs7Ozs7bUJBdEZGO0EsdUJBQU8sRUFBRSxNQUFGLEFBQVEsQTtpREFDWCxFQUFFLE1BQUYsQUFBUSxBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7O0VBSFMsZ0JBQU0sQSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvVXNlcnMvdG9tc3RvdmUvRG9jdW1lbnRzL0NvZGluZy9uZXh0anMvdGhvbWFzc3RvdmUuY29tIn0=
