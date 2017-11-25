@@ -1,10 +1,10 @@
 import Page from '../components/page'
 import React from 'react'
 
+
 export default class extends React.Component {
   static async getInitialProps() {
-    let data = { name: "tom" }
-    return ({ data: data })
+    return {};
   }
 
   render() {
@@ -41,39 +41,34 @@ export default class extends React.Component {
         </div>
       </section>
 
-      <section id="instafeed">
+      <section id="works">
         <div className="gridContainer center">
-          <div className="photo item"></div>
-          <div className="photo item"></div>
-          <div className="photo item"></div>
-          <div className="photo item"></div>
-          <div className="photo item"></div>
-          <div className="photo item"></div>
-          <div className="photo item"></div>
-          <div className="photo item"></div>
+          <div className="heading">
+            <hr />
+            <h2>Works and Sketches</h2>
+          </div>
+          <div className="worksContainer">
+            <div className="item" />
+            <div className="item" />
+            <div className="item" />
+            <div className="item" />
+            <div className="item" />
+            <div className="item" />
+            <div className="item" />
+            <div className="item" />
+            <div className="item" />
+          </div>
         </div>
       </section>
 
       <section id="contact">
         <div className="gridContainer center">
+          <div className="heading">
+            <hr />
+            <h2>Get in touch</h2>
+          </div>
           <div className="leftContent">
-            <hr />
-            <h2>Services</h2>
-          </div>
-          <div className="subheadLeft subhead">
-            <ul>
-              <li>Furniture and cabinet design</li>
-              <li>Furniture and cabinet construction</li>
-            </ul>
-          </div>
-          <div className="centerContent">
-            <hr />
-            <h2>Get In Touch</h2>
-          </div>
-          <div className="subheadCenter subhead">
-            <p>tom@thomasstove.com</p>
-            <p>0457 001 345</p>
-            <p>Hobart, Tasmania</p>
+            <h1>You can get in contact with me at <a href="mailto:tom@thomasstove.com">tom@thomasstove.com</a> or on 0457 001 345. I'm also on <a href="https://www.facebook.com/thomasstovefurniture/" target="_blank">facebook</a> and <a href="https://www.instagram.com/tomstove/" target="_blank">instagram</a> if that suits you too.</h1>
           </div>
           <div className="rightContent">
             <img className="circle" src="/static/profile_sml.png" />
@@ -84,12 +79,18 @@ export default class extends React.Component {
       <footer>
         <hr className="f" />
         <div className="gridContainer center">
-          <div className="facebookLogo"></div>
-          <div className="instagramLogo"></div>
-          <div className="details item">
-
+          <div className="facebookLogo">
+            <a href="https://www.facebook.com/thomasstovefurniture/" target="_blank"><img src="/static/Facebook.svg" /></a>
           </div>
-          <div className="footerLogo item"></div>
+          <div className="instagramLogo">
+            <a href="https://www.instagram.com/tomstove/" target="_blank"><img src="/static/Instagram.svg" /></a>
+          </div>
+          <div className="details">
+            <p className="small">Made with &#9825; by Tom Stove, 2017</p>
+          </div>
+          <div className="footerLogo">
+            <a href="http://thomasstove.com"><img src="/static/logo.svg" /></a>
+          </div>
         </div>
       </footer>
 
