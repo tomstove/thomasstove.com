@@ -1,10 +1,16 @@
 import Page from '../components/page'
 import React from 'react'
-import data from '../static/works.json'
+import Instagram from 'node-instagram'
 
+const instagram = new Instagram({
+  clientId: '4f857ddae3d04110abe43e533b820fc3',
+  clientSecret: 'a55c4c1d377b4fe6a0e943ce889c86d3',
+  accessToken: '1749449.1677ed0.90fddba0077949e4ab00c4296b9c0369'
+})
 
 export default class extends React.Component {
   static async getInitialProps() {
+    const data = await instagram.get('users/self/media/recent', { count: 12 });
     return { data: data };
   }
 
@@ -49,10 +55,9 @@ export default class extends React.Component {
           </div>
           <div className="worksContainer">
             {
-              this.props.data.map((item) => (
+              this.props.data.data.map((item) => (
                 <div className="photo">
-                  <img src={item.image_url} />
-                  { console.log(item.title) }
+                  <img src={item.images.standard_resolution.url} />
                 </div>
               ))
             }
