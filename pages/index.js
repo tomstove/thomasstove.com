@@ -1,23 +1,23 @@
 import Page from '../components/page'
 import React from 'react'
+import data from '../static/works.json'
 
 
 export default class extends React.Component {
   static async getInitialProps() {
-    return {};
+    return { data: data };
   }
 
   render() {
     return (
       <Page>
-
       <section id="intro">
         <div className="gridContainer center">
           <div className="logo">
             <img className="svgLogo" src="/static/logo.svg" />
           </div>
           <div className="welcome">
-            <h1>Hi, I'm a furniture/cabinet maker/designer residing in Hobart, Tasmania. I specialise in designing and constructing pieces to suit your space and needs.</h1>
+            <h1>Hi, I'm Tom Stove. I design and build furniture and cabinets to suit your space and needs. I use a variety of materials and techniques and am based in Hobart, Tasmania.</h1>
           </div>
         </div>
       </section>
@@ -48,15 +48,14 @@ export default class extends React.Component {
             <h2>Works and Sketches</h2>
           </div>
           <div className="worksContainer">
-            <div className="item" />
-            <div className="item" />
-            <div className="item" />
-            <div className="item" />
-            <div className="item" />
-            <div className="item" />
-            <div className="item" />
-            <div className="item" />
-            <div className="item" />
+            {
+              this.props.data.map((item) => (
+                <div className="photo">
+                  <img src={item.image_url} />
+                  { console.log(item.title) }
+                </div>
+              ))
+            }
           </div>
         </div>
       </section>
