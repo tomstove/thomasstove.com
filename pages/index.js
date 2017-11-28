@@ -10,7 +10,7 @@ const instagram = new Instagram({
 
 export default class extends React.Component {
   static async getInitialProps() {
-    const data = await instagram.get('users/self/media/recent', { count: 12 });
+    const data = await instagram.get('users/self/media/recent', { count: 13 });
     return { data: data };
   }
 
@@ -32,16 +32,16 @@ export default class extends React.Component {
         <div className="gridContainer center">
           <div className="heading">
             <hr />
-            <h2>Personal Account</h2>
+            <h2>My Story</h2>
           </div>
           <div className="subhead">A lifes work of embracing both the creative and the quantitative, developing thriving online businesses and enviable brands.</div>
           <div className="leftContent">
-            <p>My adventures in furniture design began in 2009 when my life took on a new direction. I found working with my hands in a creative fashion therapeutic and akin to simpler times. I was captivated with Italian minimalism and the sleek, clean lines representative of the early 21st century. Inspired by the works of designers Werner Aisslinger and Roland Knoll, and of furniture studios Cappellini and Vitra, I set to work creating my own designs.</p>
-            <p>In 2012, I took the next step in my education and began working with solid timber. I joined Designed Objects Tasmania, a cooperative studio and workshop to advance my craft. I learnt how to use machinery and discovered the beauty of working with timber.</p>
+            <p>My adventures in furniture design began in 2009 when my life took on a new direction. I found working with my hands in a creative fashion therapeutic and akin to simpler times. I was captivated with Italian minimalism and the sleek, clean lines representative of the early 21st century. Inspired by the works of designers <a href="http://www.aisslinger.de/" target="_blank">Werner Aisslinger</a> and <a href="https://www.rknl.com/" target="_blank">Ronald Knol</a>, and of furniture studios <a href="https://www.cappellini.it/en" target="_blank">Cappellini</a> and <a href="https://www.vitra.com/en-au/home" target="_blank">Vitra</a>, I set to work creating my own designs.</p>
+            <p>In 2012, I took the next step in my education and began working with solid timber. I joined <a href="https://www.dot.org.au/" target="_blank">Designed Objects Tasmania</a>, a cooperative studio and workshop to advance my craft. I learnt how to use machinery and discovered the beauty of working with timber.</p>
           </div>
           <div className="rightContent">
-            <p>Inspired by the robust designs of Mark Tuckey, I designed and created cabinets using thick timber slabs whilst integrating elements from Scandinavian modern. The minimalist nature of the mid-century modern movement provided the next step in my journey.</p>
-            <p>Upon my completion of a Bachelor of Science from UTAS (that's a story for another time) I decided to have a go at making furniture on a full-time basis. So it was that I discovered Shaker style furniture. I was drawn in by the stark minimalism which encapsulates the style where truly less is more. I honed my hand tool skills and learnt to construct furniture using traditional joinery techniques. I learnt the subtleties of wood movement (and the not so subtle effects of getting it wrong) and created small and large pieces with traditional timber drawers and doors. Inspired by the work of Sebastian Cox, I introduced woven timber elements into my designs.</p>
+            <p>Inspired by the robust designs of <a href="http://www.marktuckey.com.au/" target="_blank">Mark Tuckey</a>, I designed and created cabinets using thick timber slabs whilst integrating elements from Scandinavian modern. The minimalist nature of the mid-century modern movement provided the next step in my journey.</p>
+            <p>Upon my completion of a Bachelor of Science from UTAS (that's another story) I decided to have a go at making furniture on a full-time basis. So it was that I discovered Shaker style furniture. I was drawn in by the stark minimalism which encapsulates the style where truly less is more. I honed my hand tool skills and learnt to construct furniture using traditional joinery techniques. I learnt the subtleties of wood movement (and the not so subtle effects of getting it wrong) and created small and large pieces with traditional timber drawers and doors. Inspired by the work of <a href="http://www.sebastiancox.co.uk/" target="_blank">Sebastian Cox</a>, I introduced woven timber elements into my designs.</p>
             <p>In early 2017, I decided it was time to take the next step in my indefinite eduction and accepted a cabinet making apprenticeship through a prominent joinery firm in Hobart. Working in a professional workshop and using new materials and techniques has changed the way I think about, design and construct furniture and cabinets for the better.</p>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default class extends React.Component {
             {
               this.props.data.data.map((item) => (
                 <div className="photo">
-                  <img src={item.images.standard_resolution.url} />
+                  <a href={item.link} target="_blank"><img src={item.images.standard_resolution.url} /></a>
                 </div>
               ))
             }
@@ -72,7 +72,7 @@ export default class extends React.Component {
             <h2>Get in touch</h2>
           </div>
           <div className="leftContent">
-            <h1>You can get in contact with me at <a href="mailto:tom@thomasstove.com">tom@thomasstove.com</a> or on 0457 001 345. I'm also on <a href="https://www.facebook.com/thomasstovefurniture/" target="_blank">facebook</a> and <a href="https://www.instagram.com/tomstove/" target="_blank">instagram</a> if that suits you too.</h1>
+            <h1>You can get in contact with me at <a href="mailto:tom@thomasstove.com">tom@thomasstove.com</a> or on 0457 001 345. I'm also on <a href="https://www.facebook.com/thomasstovefurniture/" target="_blank">facebook</a> and <a href="https://www.instagram.com/tomstove/" target="_blank">instagram</a> if you'd prefer.</h1>
           </div>
           <div className="rightContent">
             <img className="circle" src="/static/profile_sml.png" />
