@@ -22,6 +22,12 @@ hr.f {
   text-align: left;
 }
 
+@media (max-width: 800px) {
+  hr.f {
+    width: 700px
+  }
+}
+
 @media (max-width: 450px) {
   hr.f {
     width: 400px
