@@ -174,13 +174,17 @@ footer .footerLogo img {
   width: 3rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   #intro .gridContainer {
-    max-width: 700px;
+    max-width: 85vw;
+  }
+
+  .svgLogo {
+    width: 80px;
   }
 
   #biography .gridContainer {
-    max-width: 700px;
+    max-width: 85vw;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 4fr;
   }
@@ -201,11 +205,11 @@ footer .footerLogo img {
   }
 
   #works .gridContainer {
-    max-width: 700px;
+    max-width: 85vw;
   }
 
   #works .worksContainer {
-    max-height: 2750px;
+    max-height: 3100px;
   }
 
   .photo {
@@ -213,25 +217,30 @@ footer .footerLogo img {
   }
 
   #contact .gridContainer {
-    max-width: 700px;
+    max-width: 85vw;
   }
 
   footer .gridContainer {
-    max-width: 700px;
+    max-width: 85vw;
+  }
+}
+
+@media (max-width: 580px) {
+  #works .worksContainer {
+    max-height: 100%;
+  }
+
+  .photo {
+    width: 100%;
   }
 }
 
 @media (max-width: 450px) {
-  #intro .gridContainer {
-    max-width: 400px;
-  }
-
   .svgLogo {
     width: 70px;
   }
 
   #biography .gridContainer {
-    max-width: 400px;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
   }
@@ -251,10 +260,6 @@ footer .footerLogo img {
     padding: 0;
   }
 
-  #works .gridContainer {
-    max-width: 400px;
-  }
-
   #works .worksContainer {
     max-height: 100%;
   }
@@ -264,7 +269,6 @@ footer .footerLogo img {
   }
 
   #contact .gridContainer {
-    max-width: 400px;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
   }
@@ -279,11 +283,11 @@ footer .footerLogo img {
     padding-top: 4rem;
   }
 
-  footer .gridContainer {
-    max-width: 400px;
-  }
-
   footer .details {
     padding-top: 0.5rem;
+  }
+
+  .circle {
+    width: 50%;
   }
 }
