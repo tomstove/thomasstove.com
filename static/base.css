@@ -21,3 +21,9 @@ hr.f {
   width: 960px;
   text-align: left;
 }
+
+@media (max-width: 450px) {
+  hr.f {
+    width: 400px
+  }
+}
