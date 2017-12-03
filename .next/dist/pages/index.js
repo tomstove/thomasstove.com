@@ -344,7 +344,7 @@ var _class = function (_React$Component) {
             switch (_context.prev = _context.next) {
               case 0:
                 _context.next = 2;
-                return instagram.get('users/self/media/recent', { count: 13 });
+                return instagram.get('users/self/media/recent', { count: 15 });
 
               case 2:
                 data = _context.sent;

@@ -10,7 +10,7 @@ const instagram = new Instagram({
 
 export default class extends React.Component {
   static async getInitialProps() {
-    const data = await instagram.get('users/self/media/recent', { count: 13 });
+    const data = await instagram.get('users/self/media/recent', { count: 15 });
     return { data: data };
   }
 
