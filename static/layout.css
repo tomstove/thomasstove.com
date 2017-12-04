@@ -44,7 +44,7 @@ section, footer {
   max-width: 960px;
   height: auto;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 3.5fr;
+  grid-template-rows: 1fr 1fr 2.5fr;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
@@ -52,24 +52,19 @@ section, footer {
 #biography .heading {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-}
-
-#biography .subhead {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  padding-right: 26rem;
+  padding-bottom: 6rem;
 }
 
 #biography .leftContent {
   grid-column: 1 / 2;
-  grid-row: 3 / 4;
+  grid-row: 2 / 4;
   padding-right: 4rem;
 }
 
 #biography .rightContent {
   grid-column: 2 / 3;
   grid-row: 1 / 4;
-  padding-top: 9rem;
+  padding-top: 12rem;
   padding-left: 4rem;
 }
 
@@ -85,6 +80,7 @@ section, footer {
 #works .heading {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  padding-bottom: 6rem;
 }
 
 #works .worksContainer {
@@ -186,11 +182,6 @@ footer .footerLogo img {
     grid-template-rows: 1fr 1fr 4fr;
   }
 
-  #biography .subhead {
-    padding-top: 4rem;
-    padding-right: 8rem;
-  }
-
   #biography .leftContent {
     padding-right: 2rem;
   }
@@ -226,11 +217,6 @@ footer .footerLogo img {
   #biography .gridContainer {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-  }
-
-  #biography .subhead {
-    padding-top: 8rem;
-    padding-right: 8rem;
   }
 
   #biography .leftContent {
