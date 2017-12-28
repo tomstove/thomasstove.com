@@ -10,13 +10,40 @@ const instagram = new Instagram({
 
 export default class extends React.Component {
   static async getInitialProps() {
-    const data = await instagram.get('users/self/media/recent', { count: 15 });
-    return { data: data };
+    const rawData = await instagram.get('users/self/media/recent', { count: 21 });
+    let data = [];
+    rawData.data.forEach(function(item) {
+      if(item.carousel_media) {
+        item.carousel_media.forEach(function(image) {
+          data.push({
+            url: image.images.standard_resolution.url,
+            link: item.link
+          })
+        })
+      } else {
+        data.push({
+          url: item.images.standard_resolution.url,
+          link: item.link
+        })
+      }
+    })
+
+    let newArr = [];
+
+    while(data.length > 0) {
+      let i = Math.floor(Math.random() * data.length);
+      newArr.push(data[i]);
+      data.splice(i, 1);
+    }
+    return { data: newArr };
   }
 
   render() {
     return (
       <Page>
+      {
+        console.log(this.props.data)
+      }
       <section id="intro">
         <div className="gridContainer center">
           <div className="logo">
@@ -46,6 +73,18 @@ export default class extends React.Component {
         </div>
       </section>
 
+      <section id="services">
+        <div className="gridContainer center">
+          <div className="heading">
+            <hr />
+            <h2>What I Offer</h2>
+          </div>
+          <div className="statement">
+            <h3>Being commission based, I specialise in offering custom furniture and cabinet solutions. I provide expertise with free-standing and built-in furniture in a range of styles and materials. Feel free to browse my works below and please get in contact to discuss your ideas.</h3>
+          </div>
+        </div>
+      </section>
+
       <section id="works">
         <div className="gridContainer center">
           <div className="heading">
@@ -54,9 +93,9 @@ export default class extends React.Component {
           </div>
           <div className="worksContainer">
             {
-              this.props.data.data.map((item) => (
+              this.props.data.map((item) => (
                 <div className="photo">
-                  <a href={item.link} target="_blank"><img src={item.images.standard_resolution.url} /></a>
+                  <a href={item.link} target="_blank"><img src={item.url} /></a>
                 </div>
               ))
             }

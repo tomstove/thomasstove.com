@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/tomstove/starterapp#readme",
   "dependencies": {
+    "cloudinary-core": "^2.3.0",
+    "cloudinary-react": "^1.0.4",
     "fs": "0.0.1-security",
     "next": "^4.1.4",
     "node-instagram": "^4.1.0",
