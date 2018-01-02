@@ -8,6 +8,7 @@ const instagram = new Instagram({
   accessToken: '1749449.1677ed0.90fddba0077949e4ab00c4296b9c0369'
 })
 
+
 export default class extends React.Component {
   static async getInitialProps() {
     const rawData = await instagram.get('users/self/media/recent', { count: 21 });
@@ -41,9 +42,6 @@ export default class extends React.Component {
   render() {
     return (
       <Page>
-      {
-        console.log(this.props.data)
-      }
       <section id="intro">
         <div className="gridContainer center">
           <div className="logo">

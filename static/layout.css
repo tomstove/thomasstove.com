@@ -312,7 +312,7 @@ footer .footerLogo img {
 
 @media (max-width: 600px) {
   .svgLogo {
-    width: 70px;
+    width: 80px;
   }
 
   #biography .gridContainer {
